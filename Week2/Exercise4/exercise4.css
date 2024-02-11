@@ -1,0 +1,25 @@
+.TOP{
+background-color: blue;
+
+min: height 80px;font-size: 100px;
+}
+.LEFT{
+    align-content: top;
+    background-color: yellow;
+}
+.RIGHT{   
+background-color: lightgreen;
+}
+.CENTRE{
+    background-color: blue; height: 800px;
+
+
+
+} 
+footer{
+background-color: green;
+
+}
+
+
+
