@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Size of Countries - Chart</title>
+    <meta
+      name="SizeOfCountries"
+      content="Graph representation of a data set containing size of countries"
+    />
+    <meta name="author" content="Muhammad Soban" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Area of top 10 largest coutries in the world</h1>
+      <br />
+      <div class="row">
+        <div class="col-6 chart">
+          <h2>Line Chart</h2>
+          <canvas id="sizeOfCountriesLineChart"></canvas>
+        </div>
+
+        <div class="col-6 chart">
+          <h2>Bar Chart</h2>
+          <canvas id="sizeOfCountriesBarChart"></canvas>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6 chart">
+          <h2>Doughnut Chart</h2>
+          <canvas id="sizeOfCountriesDoughnutChart"></canvas>
+        </div>
+
+        <div class="col-6 chart">
+          <h2>Pie Chart</h2>
+          <canvas id="sizeOfCountriesPieChart"></canvas>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-6">
+          <button id="ago" onclick="updateCharts('ago')">10 Years Ago</button>
+        </div>
+        <div class="col-6">
+          <button id="ahead" onclick="updateCharts('ahead')">10 Years Ahead</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="ex2.js"></script>
+  </body>
+</html>
